@@ -1,11 +1,3 @@
-/*
-//////////////////////////////////////////////////////
-
-FREE HTML5 TEMPLATE 
-DESIGNED & DEVELOPED by FREEHTML5.CO
-
-//////////////////////////////////////////////////////
-*/
 @font-face {
   font-family: 'themify';
   src: url("../fonts/themify/themify.eot?-fvbane");
@@ -481,8 +473,7 @@ main[role="main"], #fh5co-blog {
 .fh5co-post-entry .fh5co-blog-title > a {
   display: block;
 }
-
-footer {
+.footer {
   font-size: 13px;
   font-family: "Montserrat", sans-serif;
   background: #2e2e2e;
@@ -490,25 +481,25 @@ footer {
   float: left;
   width: 100%;
 }
-footer h2, footer h3, footer h4, footer h5, footer h6 {
+.footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   color: #ccc !important;
 }
-footer > .container {
+.footer .container {
   padding-top: 4em;
   padding-bottom: 4em;
 }
-footer address {
+.footer address {
   font-weight: 400;
   font-size: 13px;
 }
-footer a {
+.footer a {
   color: #ccc;
 }
-footer a:hover, footer a:active, footer a:focus {
+.footer a:hover, .footer a:active, .footer a:focus {
   text-decoration: underline;
   color: #ffffff;
 }
-footer .fh5co-footer-title {
+.footer .fh5co-footer-title {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 4px;
   font-size: 12px;
@@ -517,32 +508,32 @@ footer .fh5co-footer-title {
   color: #ccc;
   margin-bottom: 2s0px;
 }
-footer .fh5co-footer-links {
+.footer .fh5co-footer-links {
   padding-left: 0;
   margin-left: 0;
 }
-footer .fh5co-footer-links li {
+.footer .fh5co-footer-links li {
   list-style: none;
   padding: 0;
   margin: 0 0 .5em 0;
 }
-footer .fh5co-footer-social {
+.footer .fh5co-footer-social {
   padding: 0;
   margin: 0;
 }
 @media screen and (max-width: 768px) {
-  footer .fh5co-footer-social {
+  .footer .fh5co-footer-social {
     float: left !important;
     width: 100% !important;
   }
 }
-footer .fh5co-footer-social li {
+.footer .fh5co-footer-social li {
   list-style: none;
   padding: 0;
   margin: 0;
   display: inline;
 }
-footer .fh5co-footer-social li a {
+.footer .fh5co-footer-social li a {
   font-size: 20px;
   padding: 4px 7px;
 }
